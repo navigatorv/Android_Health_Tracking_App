@@ -1,12 +1,12 @@
 # MySteps
 
-This is an Android Health tracking app developed at the last year of my honours degree to assist my research work.
-The aim of this app is to help people make running a habit.
-Key data tracked is user's daily steps walked. 
+This is an Android Health tracking app developed at the last year of my honours degree to assist my research work.  
+The aim of this app is to help people make running a habit.  
+Key data tracked is user's daily steps walked.   
 
 ## How it helps people foster the habit of running
-If a user use the app, he/she is arranged into a group by the admin through admin panel. Individual steps goal and Group steps goal are assigned to the user and his/her group. 
-Users compete with each other with their number of steps. Same rules apply to different groups. People compete and cooperate with each other. User's interest is stimulated in this way.
+If a user use the app, he/she is arranged into a group by the admin through admin panel. Individual steps goal and Group steps goal are assigned to the user and his/her group.   
+Users compete with each other with their number of steps. Same rules apply to different groups. People compete and cooperate with each other. User's interest is stimulated in this way.  
 
 ## Main functionalities
 * A dashboard displays all group members' current steps count.
@@ -25,11 +25,11 @@ Users compete with each other with their number of steps. Same rules apply to di
 
 ## Tech stacks
 
-Firebase
-Google login API
-Google Fit API
-MPAndroidchart
-Android: Notification, fragment, UI design
+Firebase  
+Google login API  
+Google Fit API  
+MPAndroidchart  
+Android: Notification, fragment, UI design  
 
 ## Getting Started
 
