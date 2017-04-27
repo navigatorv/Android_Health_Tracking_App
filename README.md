@@ -9,16 +9,16 @@ If a user use the app, he/she is arranged into a group by the admin through admi
 Users compete with each other with their number of steps. Same rules apply to different groups. People compete and cooperate with each other. User's interest is stimulated in this way.
 
 ## Main functionalities
-** When users first attend the experiment of our research, they are assigned into different groups. A dashboard displays all group members' current steps count.
-![alt text](https://raw.githubusercontent.com/navigatorv/Android_Health_Tracking_App/master/ReadmeImage/GroupPage.png)
+* When users first attend the experiment of our research, they are assigned into different groups. A dashboard displays all group members' current steps count.
+![alt text](https://raw.githubusercontent.com/navigatorv/Android_Health_Tracking_App/master/ReadmeImage/roupPage.png)
 
-** User could interact with team members with like or dislike.
+* User could interact with team members with like or dislike.
 ![alt text](https://raw.githubusercontent.com/navigatorv/Android_Health_Tracking_App/master/ReadmeImage/like.png)
 
-** Dynamic charts displays users' step history. 
+* Dynamic charts displays users' step history. 
 ![alt text](https://raw.githubusercontent.com/navigatorv/Android_Health_Tracking_App/master/ReadmeImage/chart.png)
 
-** Notification: Android system regularly sends 2 notifications a day to encourage or discourage people. 
+* Notification: Android system regularly sends 2 notifications a day to encourage or discourage people. 
 
 ## Tech stacks
 
