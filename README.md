@@ -33,12 +33,12 @@ Android: Notification, fragment, UI design
 
 ## Getting Started
 
-This project runs in
-    compileSdkVersion 24
-    buildToolsVersion "24.0.0"
-    minSdkVersion 18
-    targetSdkVersion 24
-    Google API 9.2.1
+This project runs in  
+    compileSdkVersion 24  
+    buildToolsVersion "24.0.0"  
+    minSdkVersion 18  
+    targetSdkVersion 24  
+    Google API 9.2.1  
     
 ### Prerequisites
 
@@ -46,5 +46,5 @@ Users of this project can only be added by admin.
 
 ### Contact
 
-QQ: 790964721 
+QQ: 790964721   
 Facebook: Kangdi Chris Zhang
