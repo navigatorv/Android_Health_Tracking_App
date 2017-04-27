@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "713499061287",
+    "firebase_url": "https://mysteps-b7e3c.firebaseio.com",
+    "project_id": "mysteps-b7e3c",
+    "storage_bucket": "mysteps-b7e3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713499061287:android:3cd3e00041c6a433",
+        "android_client_info": {
+          "package_name": "com.example.kzha6954.mysteps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713499061287-eon40ts8plbphvn4scv0pii2ocqkqo6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kzha6954.mysteps",
+            "certificate_hash": "84556648422F5E10864288B36DB64548AB0A3E8F"
+          }
+        },
+        {
+          "client_id": "713499061287-bj097skacl7ejp4fuggfogc9ua46q23u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoc-K9PJIljbEevnJmhWHKE-uMCgZoD68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713499061287-bj097skacl7ejp4fuggfogc9ua46q23u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

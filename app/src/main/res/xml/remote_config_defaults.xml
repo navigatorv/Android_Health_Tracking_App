@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>groupGoalSteps</key>
+        <value>20000</value>
+    </entry>
+    <entry>
+        <key>personalGoalSteps</key>
+        <value>10000</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

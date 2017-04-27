@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MySteps</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="skin_tabbar_icon_auth">Moments</string>
+    <string name="skin_tabbar_icon_at">Group</string>
+    <string name="skin_tabbar_icon_space">Message</string>
+    <string name="skin_tabbar_icon_more">Me</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

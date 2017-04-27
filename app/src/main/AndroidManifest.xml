@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kzha6954.mysteps"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Main.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main.SetUpFrameActivity"
+            android:label="MySteps"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Main.MainActivity">
+        </activity>
+        <activity
+            android:name=".Main.SignInActivity"
+            android:label="SignInWithGoogle"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Main.MainActivity">
+        </activity>
+
+        <receiver
+            android:name=".Notification.AlarmReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="go"> </action>
+                <action android:name="android.intent.action.MAIN"></action>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Me.SettingStatusActivity"
+            android:label="Set your status"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Main.MainActivity">
+        </activity>
+        <activity
+            android:name=".Me.HistorylineChartActivity"
+            android:label="History Chart"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Main.MainActivity">
+        </activity>
+        <activity
+            android:name=".Me.SetUsernameActivity"
+            android:label="Set username"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Main.MainActivity">
+        </activity>
+        <activity
+            android:name=".Me.SettingProfileActivity"
+            android:label="Set personal profile"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Main.MainActivity">
+        </activity>
+
+        <activity
+            android:name=".Group.GroupMemberActivity"
+            android:label="Member list"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Main.MainActivity">
+        </activity>
+        <activity
+            android:name=".Group.FragGroupSettingActivity"
+            android:label="SimpleFrame"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Main.MainActivity">
+        </activity>
+
+        <activity
+            android:name=".Group.MemberDetailActivity"
+            android:label="Member Detail"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Main.MainActivity">
+        </activity>
+
+        <service
+            android:name=".GoogleFit.GoogleFitService"
+            android:enabled="true" >
+        </service>
+        <activity
+            android:name=".GoogleFit.GoogleFitActivity"
+            android:label="Google fit act"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Main.MainActivity">
+        </activity>
+
+
+    </application>
+
+</manifest>

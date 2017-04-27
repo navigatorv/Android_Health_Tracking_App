@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:id="@+id/moments_pb_first">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Goal steps:"
+            android:id="@+id/textView4"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="25dp"
+            android:layout_alignTop="@+id/progressBar"
+            android:layout_alignStart="@+id/moments_tv_user_name1"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Complete:"
+            android:id="@+id/textView6"
+            android:layout_gravity="right|bottom"
+            android:layout_alignTop="@+id/moments_tv_user_steps_target1"
+            android:layout_toStartOf="@+id/moments_tv_user_completion1" />
+
+        <TextView
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="20%"
+            android:id="@+id/moments_tv_user_completion1"
+            android:layout_gravity="right|bottom"
+            android:gravity="left"
+            android:layout_alignTop="@+id/textView6"
+            android:layout_alignEnd="@+id/progressBar" />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="20%"
+            android:id="@+id/moments_tv_user_steps_target1"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="left"
+            android:layout_alignTop="@+id/progressBar"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="30dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_progressbar_bg"
+            style="@style/StyleProgressBarMini"
+            android:max="100"
+            android:progress="50"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:indeterminate="false"
+            android:layout_below="@+id/button1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Yui"
+            android:id="@+id/moments_tv_user_name1"
+            android:layout_margin="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Achieve:"
+            android:id="@+id/textView5"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_alignBottom="@+id/moments_tv_user_name1"
+            android:layout_toStartOf="@+id/moments_tv_user_steps_actual1" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Like"
+            android:id="@+id/button1"
+            android:layout_alignTop="@+id/moments_tv_user_name1"
+            android:layout_alignEnd="@+id/progressBar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="100"
+            android:id="@+id/moments_tv_user_steps_actual1"
+            android:layout_marginLeft="1dp"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_toStartOf="@+id/textView6" />
+
+        <View style="@style/bg_line"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/moments_tv_count"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_above="@+id/button1"
+            android:layout_alignStart="@+id/button1"
+            android:text="1"
+            android:layout_alignEnd="@+id/button1"
+            android:layout_marginRight="3dp"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F3F6">
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="166dp"
+        android:background="#fff">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="top">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp" >
+
+                    <TextView
+                        android:textSize="16dp"
+                        android:text="Username: "
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/textView3"
+                        android:textColor="#333"
+                        android:layout_column="0" />
+
+                    <TextView
+                        android:textSize="16dp"
+                        android:text="Yui"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/username_tv_me"
+                        android:textColor="#333"
+                        android:layout_column="12" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textSize="16dp"
+                        android:text="Goal today:"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textColor="#333"
+                        android:layout_marginTop="3dp"
+                        android:id="@+id/goal_tv_me" />
+
+                    <TextView
+                        android:textSize="16dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:id="@+id/goal_display_tv_me"
+                        android:textColor="#333"
+                        android:layout_column="12"
+                        android:layout_marginLeft="3dp"
+                        android:text="1000" />
+
+                    <TextView
+                        android:textSize="16dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#333"
+                        android:layout_column="13"
+                        android:layout_marginLeft="3dp"
+                        android:text="steps" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textSize="16dp"
+                        android:text="Group Id:"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textColor="#333"
+                        android:id="@+id/group_tv_me"
+                        android:layout_marginTop="3dp" />
+
+                    <TextView
+                        android:textSize="16dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:id="@+id/Group_display_tv_me"
+                        android:textColor="#333"
+                        android:layout_column="12"
+                        android:text="Royal"
+                        android:layout_marginLeft="3dp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <!-- 简介 -->
+
+        </LinearLayout>
+        <!-- 分割线 -->
+        <View style="@style/bg_line"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="#22000000"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_gravity="bottom"
+            android:id="@+id/fragment_me_status_bar">
+            <TextView
+                android:id="@+id/status_tv_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:textColor="#333"
+                android:text="Status:" />
+
+            <TextView
+                android:id="@+id/fragment_me_et_staus_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:textColor="#333"
+                android:layout_gravity="center_vertical" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+    <LinearLayout style="@style/wrap_layout"
+        android:layout_width="match_parent">
+        <!-- 上圆角-->
+        <LinearLayout style="@style/top_layout"
+            android:orientation="horizontal"
+            android:id="@+id/Set_target_steps_ll_me">
+            <TextView style="@style/usertext" android:text="Set status" />
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+
+        <!-- 分割线 -->
+        <View style="@style/bg_line"/>
+        <!-- 无圆角-->
+        <LinearLayout style="@style/mid_layout"
+            android:id="@+id/viewProfile_ll_me">
+            <TextView style="@style/usertext" android:text="View/Set personal detail" />
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+        <View style="@style/bg_line"/>
+        <!-- 下圆角-->
+        <LinearLayout style="@style/bottom_layout"
+            android:id="@+id/viewHistory_ll_me">
+            <TextView style="@style/usertext" android:text="View history" />
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+        <View style="@style/bg_line"/>
+        <!-- 下圆角-->
+        <LinearLayout style="@style/bottom_layout"
+            android:id="@+id/setUsername_ll_me">
+            <TextView style="@style/usertext" android:text="Set username" />
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!-- 全圆角-->
+    <LinearLayout style="@style/wrap_layout">
+        <LinearLayout style="@style/single_layout">
+            <TextView style="@style/usertext" android:text="Questionaire"/>
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
